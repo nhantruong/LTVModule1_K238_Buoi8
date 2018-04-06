@@ -1,0 +1,159 @@
+﻿/* Dùng cho các bài tập 3,4,5,6,8*/
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -o-box-sizing: border-box;
+       -ms-box-sizing: border-box;
+}
+
+body {
+    font-size:0.975em;
+    font-family:Arial, Helvetica, sans-serif,Tahoma;
+}
+
+.main-Content,.main-ContentGreen
+{
+ 
+    margin:15px auto;
+    min-width:400px;
+    max-width:700px;
+    min-height:200px;
+   
+    margin:50px auto;
+    padding:15px;
+    
+}
+.main-Content{
+      border: 1px solid #e2e2e2;
+    box-shadow:4px 0px 3px 3px #e2e2e2 inset;
+      border-radius:8px;
+}
+.main-ContentGreen {
+   /* border: 1px solid #19a80b;*/
+    
+    box-shadow:0px 0px 10px 3px #99FF33 ;
+    border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+    max-width:800px;
+}
+.main-Content h2{
+    
+    border-bottom:2px solid #000000;
+    margin:15px;
+}
+.main-ContentGreen h2{
+    color:#262424;
+    text-shadow:1px 1px 2px #99FF33;
+    border-bottom:3px solid #ff5300;
+    margin:15px;
+}
+.main-Content table{
+    border-collapse:collapse;
+    width:100%;
+}
+.main-Content table th,.main-Content table td{
+    /*border:1px dotted #f2efef;*/
+    padding:5px;
+}
+
+.main-Content table th{
+
+      border-bottom:3px double #ff5300;
+   
+}
+
+.border th,.border td{
+    border:1px solid #C0BBBB!important;
+    
+}
+.border th{
+    border-bottom:3px solid #808080!important;
+    
+}
+.col1{
+    min-width:100px;
+    width:20%;
+}
+.col2{
+    min-width:160px;
+    width:25%;
+}
+.clear{clear:both;}
+/*-- Canh lề
+-------------------------------------*/
+.text-left{
+    text-align:left!important;
+}
+.text-right{
+    text-align:right!important;
+}
+.text-center{
+    text-align:center!important;
+}
+/*
+ ------------------------------------*/
+
+.col-left {
+    width: 35%;
+    float: left;
+}
+.col-right {
+    width: 60%;
+    float: left;
+}
+.form-group{width:100%;display:table; margin-bottom:10px;}
+.control-label {
+    text-align: right;
+    padding-top: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+
+}
+
+.form-control,.control-checkbox{
+    display: block;
+    width: 98%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    vertical-align: middle;
+    background-color: #FFF;
+}
+
+.form-control {
+    
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.control-button{
+     border: 1px solid #CCC;
+     border-radius: 10px;
+     box-shadow:0px 0px 12px 5px #99FF33 inset!important;
+     margin-right:10px;
+     padding:3px 10px;
+}
+.control-button:hover {
+     box-shadow:0px 0px 12px 5px #ff6f00 inset!important;
+}
+input[type='button'],input[type='submit']{
+    min-width:80px;
+    height:30px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    margin-right:8px;
+}
+input[readonly='readonly']{
+    background-color:#cecdf5;
+}
